@@ -46,7 +46,7 @@ const WEATHER_CODE = {
   99: { label: "Severe thunder", icon: "⛈️" },
 };
 
-const BACKEND_URL = "http://localhost:8000";
+const BACKEND_URL = "https://weather-ag2d.onrender.com";
 
 async function searchPlaces(q) {
   if (!q?.trim()) return [];
